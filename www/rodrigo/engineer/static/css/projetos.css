@@ -1,45 +1,30 @@
 .projetos {
-    text-align: justify;
-    padding: 30px 0;
-    width: 940px;
-    margin: 0 auto;
-    min-height: 800px;
-}
-
-.project_window {
-    border: 3px solid;
-    border-radius: 20px;
-    width: 900px;
-    height: 200px;
-    margin: 10px auto;
-}
-
-.project_window img{
-    float: left;
-    clear: bottom;
-    width: 200px;
-    height: 200px;
-    border-radius: 17px;
-}
-
-.project_window h2 {
+    max-width: 1600px;
     text-align: center;
+    padding: 30px 0;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
-.project_window p {
-    display: block;
-    text-align: justify;
-    width: 650px;
-    height: 100px;
-    margin-right: 30px;
-    margin-left: 230px;
+.block a {
+    text-decoration: none;
 }
 
-.tags_projeto {
-    display: flex;
-    flex-warp: warp;
-    margin-left: 230px;
-    margin-top: 10px;
+.block {
+    background-color: #FFFAFA;
+    display: inline-block;
+    margin: 30px;
+    width: 700px;
+    height: 400px;
+    border: 2px solid;
+    border-radius: 20px;
+    color: #000000
+}
+
+.block p {
+    margin: 10px 40px;
+    opacity: 1;
 }
 
 @midia screen and (max-width: 500px) {

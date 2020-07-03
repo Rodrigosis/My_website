@@ -3,7 +3,7 @@ body {
     max-width: 3000px;
     min-width: 1000px;
     margin: 0 auto;
-    background-color: #E8E8E8;
+    background-color: #F3F4F4;
 }
 
 /** Header **/
@@ -188,7 +188,7 @@ footer div {
   }
 
   nav {
-    justify-content: space-around;
+
     display: flex;
   }
 
