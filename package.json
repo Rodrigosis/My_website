@@ -2,9 +2,9 @@
   "name": "rodrigo.engineer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/Rodrigosis/rodrigo.engineer#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "consign": "^0.1.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
