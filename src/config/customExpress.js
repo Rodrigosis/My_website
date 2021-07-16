@@ -3,10 +3,9 @@ const consign = require('consign')
 
 module.exports = () => {
     const app = express()
-    app.use(express.static(__dirname))
 
     consign()
-        .include('src/views.js')
+        .include('src/views')
         .into(app)
 
     return app
